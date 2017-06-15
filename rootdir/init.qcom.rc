@@ -878,3 +878,9 @@ on property:sys.dbg.coresight.enable=1
 
 on property:sys.dbg.coresight.enable=0
     write /persist/coresight/enable 0
+
+chown system system /dev/ttyHSL1
+    chmod 0666 /dev/ttyHSL1
+#quickset IR
+    chown system system /sys/remote/enable
+    chmod 0666 /sys/remote/enable

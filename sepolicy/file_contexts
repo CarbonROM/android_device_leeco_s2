@@ -19,3 +19,5 @@
 /dev/ttyHSL1                            u:object_r:consumer_ir_device:s0
 
 /sys/module/msm_performance(/.*)?       u:object_r:sysfs_performance:s0
+
+/sys/remote/enable                                              u:object_r:sysfs_ir_enable:s0
