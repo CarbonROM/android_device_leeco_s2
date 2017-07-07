@@ -2,15 +2,26 @@
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 1920
 
-# Inherit device configuration
-$(call inherit-product, device/leeco/s2/full_s2.mk)
+# Provide meaningful APN configuration
+PRODUCT_COPY_FILES := device/xiaomi/kenzo/configs/apns-full-conf.xml:system/etc/apns-conf.xml
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit from the common Open Source product configuration
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
+
+# Inherit some common CARBON stuff.
+$(call inherit-product, vendor/carbon/config/common.mk)
+
+# Inherit Carbon GSM telephony parts
+$(call inherit-product, vendor/carbon/config/gsm.mk)
+
+$(call inherit-product, device/leeco/s2/device.mk)
+
+$(call inherit-product-if-exists, vendor/leeco/s2/s2-vendor.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := s2
-PRODUCT_NAME := lineage_s2
+PRODUCT_NAME := carbon_s2
 PRODUCT_BRAND := LeEco
 PRODUCT_MANUFACTURER := LeMobile
 
