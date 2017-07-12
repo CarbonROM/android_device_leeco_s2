@@ -8,7 +8,9 @@
     "target_path": "kernel/leeco/msm8976"
   },
   {
-    "repository": "android_hardware_sony_thermanager",
-    "target_path": "hardware/sony/thermanager"
+    "remote": "lineage",
+    "repository": "LineageOS/android_hardware_sony_thermanager",
+    "target_path": "hardware/sony/thermanager",
+    "branch":      "cm-14.1"
   }
 ]
