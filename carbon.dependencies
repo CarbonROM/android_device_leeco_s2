@@ -1,14 +1,20 @@
 [
+  {
+    "remote"     : "lineage",
+    "repository" : "LineageOS/android_device_qcom_common",
+    "target_path": "device/qcom/common",
+    "revision"   : "cm-14.1"
+  },
   { 
-    "remote"     : "github",
-    "repository" : "LineageOS/android_kernel_leeco_msm8976",
-    "target_path": "kernel/leeco/msm8976"
-    "branch"     : "cm-14.1"
+    "remote"     : "carbon",
+    "repository" : "CarbonROM/android_kernel_leeco_msm8976",
+    "target_path": "kernel/leeco/msm8976",
+    "revision"   : "cr-5.1"
   },
   {
     "remote"     : "lineage",
     "repository" : "LineageOS/android_hardware_sony_thermanager",
     "target_path": "hardware/sony/thermanager",
-    "branch"     : "cm-14.1"
+    "revision"   : "cm-14.1"
   }
-}
+]
