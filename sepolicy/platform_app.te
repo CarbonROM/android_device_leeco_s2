@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 allow platform_app app_data_file:file { execute };
-=======
 allow platform_app app_data_file:dir r_dir_perms;
 allow platform_app sysfs_ir_enable:file rw_file_perms;
 allow platform_app app_data_file:file execute;
 allow platform_app consumer_ir_device:chr_file { getattr ioctl open read write };
->>>>>>> f07b3e6... s2: Adding some sepolicies for denials.
