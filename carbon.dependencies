@@ -6,10 +6,10 @@
     "revision"   : "cm-14.1"
   },
   { 
-    "remote"     : "carbon",
-    "repository" : "CarbonROM/android_kernel_leeco_msm8976",
+    "remote"     : "lineage",
+    "repository" : "LineageOS/android_kernel_leeco_msm8976",
     "target_path": "kernel/leeco/msm8976",
-    "revision"   : "cr-5.1"
+    "revision"   : "cm-14.1"
   },
   {
     "remote"     : "lineage",
