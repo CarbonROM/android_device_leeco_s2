@@ -1,0 +1,4 @@
+{
+  "pushCert": "certificate version 0.1\npusher 3B0604A1 1503942565 +0530\npushee ssh://review.carbonrom.org:29418/CarbonROM/android_device_leeco_s2\nnonce 1503942572-F592A9808C7BA1A8A03148DEE06457E401C846B3\n\n0000000000000000000000000000000000000000 74f9a07df60a3bd82dc04f811f1862037f3b9933 refs/for/cr-5.1\n-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEmIbysbu/FXAeyAwK90cH6jsGBKEFAlmkV6UACgkQ90cH6jsG\nBKGk3gf+K7m6tqQPNMZoZYmkjqO1QzKe9rEd+vKzBhlc9d/75kLK5YfZ6vHMYf13\nd+aQuBAORGbBg9IBBveZ+amQGfalVNJoilwRxtwemMaKhbK1uemSpS14mF0Z9HLq\nLd6peqGUA5r9i6wiI6SjR6D+f+ePWyRjB0wgGJgiNjbdv02Ah7jQFYnXSxwAu4Pk\nk+FBi5KwYK0MVjWFWQ5/HhPl22wx7e3BdyN3Ri8+idnnJyt1O1ffeWcVPvhWEvdG\ns6W1cYrAVXAyyqJxJkQz2F7GyV9XX+xTLREtRzutDUsn86hQhypD7EH3OktsyESH\n7BZ272R9AaNgikfFg0+vtHgiO0qf/Q\u003d\u003d\n\u003dZQ4I\n-----END PGP SIGNATURE-----\n",
+  "comments": []
+}
